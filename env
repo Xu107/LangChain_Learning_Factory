@@ -1,0 +1,13 @@
+#LangSmith配置
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_API_KEY="your_langsmith_api_key"
+LANGSMITH_PROJECT="your_langsmith_project_name"
+
+
+OPENAI_API_KEY="your_openai_api_key"
+BASE_URL="your_openai_api_base_url(mybe agent address)"
+
+#取消代理使用，防止代理造成的网络问题
+HTTP_PROXY=
+HTTPS_PROXY=
