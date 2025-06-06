@@ -35,6 +35,8 @@
 - Redis / Gradio / Streamlit（可拓展）
 - Python >= 3.9
 
+  使用时请将env文件修改为 ".env" 文件以供load_dotenv()函数加载项目环境变量
+
 ## 📝 后续计划
 
 - [ ]  整合多模态 Agent 多轮对话（图文问答）
